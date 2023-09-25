@@ -1,0 +1,81 @@
+/* Style the website you made last week using CSS with the following requirements:
+Use only external CSS file (no internal or inline styling)
+Every element must be styled.
+Create style rules using class, id, and element selectors */
+
+
+ .home-page-background {
+    background-color: rgb(129, 144, 160);
+ }
+
+ .about-page-background {
+    background-color: rgb(114, 143, 134);
+ }
+
+ .contact-page-background {
+    background-color: rgb(131, 160, 144);
+ }
+
+#box-model {
+    padding: 20px;
+    border-style: none;
+    border-width:3px;
+    margin: 30px;
+    background-color: rgb(125, 156, 75);
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+ .growth-mindset-list {
+  list-style-type: square;
+ 
+}
+.growth-mindset-list  h2 {
+  font-size: 30px;
+  color:rgb(222, 226, 215);
+  margin-bottom: 20px;
+}
+
+.growth-mindset-list li {
+   font-size:larger;
+   color: rgb(35, 46, 41);
+} 
+
+blockquote h2 {
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer{
+color:rgb(20, 20, 20);
+text-align: center;
+padding: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tr, th {
+    border: 1px solid #add;
+    padding: 20;
+    text-align: center;
+}
+th {
+background-color: rgb(71, 75, 74);
+color: lightblue;
+}
+
+
+h3{
+  font-size: x-large;
+  text-align: center;
+}
+
+h4{
+  font-size: x-large;
+  text-align: cleft;
+  color:rgb(172, 90, 90)
+}
